@@ -1,7 +1,7 @@
 # 🎮 SoftBot-Auto-PCB  
 ### SoftEther VPN Discord Bot – PCB Slot Tracker
 
-A Python bot that watches your SoftEther VPN logs over SSH and keeps your Discord server updated with who's connected and which PCB slots are in use. Super handy for setups where you’ve got limited "slots" (like PCBs for arcade games) and need to track who’s using what — in real time.
+A Python bot that watches your Softether vpn logs over ssh and keeps your Discord server updated with who's connected and which PCB slots are in use. super handy for setups where you’ve got limited "slots" (like PCBs for arcade games) and need to track who’s using what — in real time.
 =====================================================================================================================
 ---
 
