@@ -63,3 +63,11 @@ VIRTUAL_HUB_NAME: The exact name of your SoftEther virtual hub (case-sensitive)
 DISCORD_TOKEN: Your bot token from the Discord Developer Portal
 
 DISCORD_CHANNEL_ID: The numeric ID of the channel where the bot should post updates
+
+Example of the bot
+
+🌐 Virtual Hub: DEFAULT
+👤 Username:   🔢 PCB ID: 1
+👤 Username:   🔢 PCB ID: 2
+👤 Username:   🔢 PCB ID: 3
+👤 Username:   🔢 PCB ID: 4 
