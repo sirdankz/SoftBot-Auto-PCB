@@ -67,7 +67,11 @@ DISCORD_CHANNEL_ID: The numeric ID of the channel where the bot should post upda
 Example of the bot
 
 🌐 Virtual Hub: DEFAULT
+
 👤 Username:   🔢 PCB ID: 1
+
 👤 Username:   🔢 PCB ID: 2
+
 👤 Username:   🔢 PCB ID: 3
+
 👤 Username:   🔢 PCB ID: 4 
