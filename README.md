@@ -17,6 +17,19 @@ A Python bot that watches your Softether vpn logs over ssh and keeps your Discor
    - Who’s using which slot
    - Which slots are still open
 
+Example of the bot
+
+🌐 Virtual Hub: DEFAULT
+
+👤 Username:   🔢 PCB ID: 1
+
+👤 Username:   🔢 PCB ID: 2
+
+👤 Username:   🔢 PCB ID: 3
+
+👤 Username:   🔢 PCB ID: 4 
+
+
 4. **Keeps tracking even if things drop**  
    Handles network hiccups, reconnects, and automatically switches to the next log file each day.
 
@@ -64,14 +77,3 @@ DISCORD_TOKEN: Your bot token from the Discord Developer Portal
 
 DISCORD_CHANNEL_ID: The numeric ID of the channel where the bot should post updates
 
-Example of the bot
-
-🌐 Virtual Hub: DEFAULT
-
-👤 Username:   🔢 PCB ID: 1
-
-👤 Username:   🔢 PCB ID: 2
-
-👤 Username:   🔢 PCB ID: 3
-
-👤 Username:   🔢 PCB ID: 4 
