@@ -35,11 +35,17 @@ pip install discord.py paramiko
 py -m pip install discord.py paramiko
 
 REMOTE_SERVER = "your-server-ip"
+
 REMOTE_USER = "your-user"
+
 REMOTE_PASSWORD = "your-password"
+
 REMOTE_LOG_PATH = "/usr/local/softether/server_log"
+
 VIRTUAL_HUB_NAME = "your-hub-name"
+
 DISCORD_TOKEN = "your-token"
+
 DISCORD_CHANNEL_ID = your-channel-id
 
 Here’s what each one does:
