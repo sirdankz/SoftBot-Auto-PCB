@@ -30,5 +30,30 @@ A Python bot that watches your SoftEther VPN logs over SSH and keeps your Discor
 Make sure Python and `pip` are installed.  
 Then install the required packages:
 
-```bash
+
 pip install discord.py paramiko
+py -m pip install discord.py paramiko
+
+REMOTE_SERVER = "your-server-ip"
+REMOTE_USER = "your-user"
+REMOTE_PASSWORD = "your-password"
+REMOTE_LOG_PATH = "/usr/local/softether/server_log"
+VIRTUAL_HUB_NAME = "your-hub-name"
+DISCORD_TOKEN = "your-token"
+DISCORD_CHANNEL_ID = your-channel-id
+
+Here’s what each one does:
+
+REMOTE_SERVER: The IP or hostname of your VPN server
+
+REMOTE_USER: Your SSH login username
+
+REMOTE_PASSWORD: The SSH password (or set up key auth if you want better security)
+
+REMOTE_LOG_PATH: Path to your SoftEther logs (usually /usr/local/softether/server_log)
+
+VIRTUAL_HUB_NAME: The exact name of your SoftEther virtual hub (case-sensitive)
+
+DISCORD_TOKEN: Your bot token from the Discord Developer Portal
+
+DISCORD_CHANNEL_ID: The numeric ID of the channel where the bot should post updates
